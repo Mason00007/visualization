@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import HomeOne from '../views/HomeOne'
+import HomeTwo from '../views/HomeTwo'
+import HomeThree from '../views/HomeThree'
+import HomeBarRace from '../views/HomeBarRace'
+import HomeBarRaceTwo from '../views/HomeBarRaceTwo'
 Vue.use(VueRouter)
 
   const routes = [
@@ -9,6 +13,31 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/HomeOne',
+    name: 'HomeOne',
+    component: HomeOne
+  },
+  {
+    path: '/HomeTwo',
+    name: 'HomeTwo',
+    component: HomeTwo
+  },
+  {
+    path: '/HomeThree',
+    name: 'HomeThree',
+    component: HomeThree
+  },
+  {
+    path: '/HomeBarRace',
+    name: 'HomeBarRace',
+    component: HomeBarRace
+  },
+  {
+    path: '/HomeBarRaceTwo',
+    name: 'HomeBarRaceTwo',
+    component: HomeBarRaceTwo
   },
   {
     path: '/about',
